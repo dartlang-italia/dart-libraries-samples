@@ -4,23 +4,41 @@ Replaces [dart-samples](https://github.com/claudiodangelis/dart-samples), old an
 
 # Roadmap
 
-- `<recursion>`Roadmap`</recursion>`
-- async
-- collection
-- convert
-- core
-- html
-- indexed_db
-- io
-- isolate
-- js
-- math
-- mirrors
-- svg
-- typed_data
-- web_audio
-- web_gl
-- web_sql
+**Libraries**
+
+- [ ] async
+- [ ] collection
+- [ ] convert
+- [ ] core
+- [ ] html
+    - [ ] DOM Manipulation
+    - [ ] Http Requests
+    - [ ] Web Sockets
+- [ ] indexed_db
+- [ ] io
+    - [ ] Read/Write Files
+    - [ ] Read/Write stdin/stdout
+    - [ ] Access network interfaces
+- [ ] isolate
+- [ ] js
+- [ ] math
+    - [ ] Mathematical functions
+- [ ] mirrors
+    - [ ] Reflection
+- [ ] svg
+- [ ] typed_data
+- [ ] web_audio
+- [ ] web_gl
+- [ ] web_sql
+
+**Other**
+
+- [ ] `<recursion>`Roadmap`</recursion>`
+- [ ] Helper tools
+    - [ ] Pub Get everything
+    - [ ] ^ A complementary tool
+    - [ ] Dart Analyze everything
+- [ ] Add READMEs
 
 # Authors
 
