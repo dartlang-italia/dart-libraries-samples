@@ -14,9 +14,8 @@ do
     fi
     if [[ -f "$DART_SDK/lib/$lib/$lib.dart" ]]; then
         lib_source="$DART_SDK/lib/$lib/$lib.dart"
-        echo "$lib_source"
     else
-        lib_source="$DART_SDK/lib/$lib/dartium/$lib""_dartium.dart"
+        lib_source="$DART_SDK/lib/$lib/dart2js/$lib""_dart2js.dart"
     fi
     echo -e "# dart:$lib\n" > "$lib/README.md"
 

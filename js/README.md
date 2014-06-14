@@ -2,7 +2,7 @@
 
 
 Support for interoperating with JavaScript.
-
+ *
 This library provides access to JavaScript objects from Dart, allowing
 Dart code to get and set properties, and call methods of JavaScript objects
 and invoke JavaScript functions. The library takes care of converting
@@ -25,14 +25,14 @@ The following example shows an alert dialog via a JavaScript call to the
 global function `alert()`:
  *
     import 'dart:js';
-    
+ *
     main() => context.callMethod('alert', ['Hello from Dart!']);
  *
 This example shows how to create a [JsObject] from a JavaScript constructor
 and access its properties:
  *
     import 'dart:js';
-    
+ *
     main() {
       var object = new JsObject(context['Object']);
       object['greeting'] = 'Hello';
@@ -42,7 +42,7 @@ and access its properties:
     }
  *
 ## Proxying and automatic conversion
-
+ *
 When setting properties on a JsObject or passing arguments to a Javascript
 method or function, Dart objects are automatically converted or proxied to
 JavaScript objects. When accessing JavaScript properties, or when a Dart
@@ -78,7 +78,7 @@ The following expression creats a new JavaScript object with the properties
 `a` and `b` defined:
  *
     var jsMap = new JsObject.jsify({'a': 1, 'b': 2});
-
+ *
 This expression creates a JavaScript array:
  *
     var jsArray = new JsObject.jsify([1, 2, 3]);
