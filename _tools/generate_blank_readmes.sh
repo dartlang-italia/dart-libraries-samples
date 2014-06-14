@@ -21,7 +21,8 @@ do
 
     # I am sorry.
     sed -n "$(grep -n -m 1 -e "\/\*\*" $lib_source |  cut -f1 -d:)","$( \
-        grep -n -m 1 -e "\*\/" $lib_source | cut -f1 -d:)"p $lib_source |  
-        sed s/^\ \\*\ //g | sed s/\\/\\*\\*//g | sed s/\\*\\///g >> \
-        "$lib/README.md"
+      grep -n -m 1 -e "\*\/" $lib_source | cut -f1 -d:)"p $lib_source |
+      sed '1d;$d' | sed -r 's/\ \*( |)//' |
+      sed 's/^\*\ //g' |
+      sed ':a;N;$!ba;s/]\n(/](/g' >> "$lib/README.md"
 done
