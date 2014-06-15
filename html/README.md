@@ -1,5 +1,9 @@
 # dart:html
 
+API Reference: [dart:html library](https://api.dartlang.org/apidocs/channels/stable/dartdoc-viewer/dart-dom-html) 
+
+---
+
 HTML elements and other resources for web-based applications that need to
 interact with the browser and the DOM (Document Object Model).
 
