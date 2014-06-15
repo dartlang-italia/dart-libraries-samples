@@ -1,5 +1,9 @@
 # dart:io
 
+API Reference: [dart:io library](https://api.dartlang.org/apidocs/channels/stable/dartdoc-viewer/dart-io) 
+
+---
+
 File, socket, HTTP, and other I/O support for server applications.
 
 The I/O library is used for Dart server applications,

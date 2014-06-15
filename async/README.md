@@ -1,5 +1,9 @@
 # dart:async
 
+API Reference: [dart:async library](https://api.dartlang.org/apidocs/channels/stable/dartdoc-viewer/dart-async) 
+
+---
+
 Support for asynchronous programming,
 with classes such as Future and Stream.
 

@@ -25,6 +25,7 @@ Replaces [dart-samples](https://github.com/claudiodangelis/dart-samples), old an
     - [ ] Mathematical functions
 - [ ] mirrors
     - [ ] Reflection
+- [ ] profiler
 - [ ] svg
 - [ ] typed_data
 - [ ] web_audio

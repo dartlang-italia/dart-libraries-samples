@@ -1,5 +1,9 @@
 # dart:convert
 
+API Reference: [dart:convert library](https://api.dartlang.org/apidocs/channels/stable/dartdoc-viewer/dart-convert) 
+
+---
+
 
 Encoders and decoders for converting between different data representations,
 including JSON and UTF-8.

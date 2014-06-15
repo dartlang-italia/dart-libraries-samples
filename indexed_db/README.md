@@ -1,5 +1,9 @@
 # dart:indexed_db
 
+API Reference: [dart:indexed_db library](https://api.dartlang.org/apidocs/channels/stable/dartdoc-viewer/dart-dom-indexed_db) 
+
+---
+
 A client-side key-value store with support for indexes.
 
 Many browsers support IndexedDB&mdash;a web standard for

@@ -1,5 +1,9 @@
 # dart:core
 
+API Reference: [dart:core library](https://api.dartlang.org/apidocs/channels/stable/dartdoc-viewer/dart-core) 
+
+---
+
 
 Built-in types, collections,
 and other core functionality for every Dart program.
