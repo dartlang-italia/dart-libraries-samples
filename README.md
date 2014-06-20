@@ -7,9 +7,13 @@ Replaces [dart-samples](https://github.com/claudiodangelis/dart-samples), old an
 **Libraries**
 
 - [ ] async
+    - [ ] Futures
+    - [ ] Streams
 - [ ] collection
 - [ ] convert
 - [ ] core
+    - [ ] Data types
+    - [ ] Classes
 - [ ] html
     - [ ] DOM Manipulation
     - [ ] Http Requests
@@ -21,6 +25,7 @@ Replaces [dart-samples](https://github.com/claudiodangelis/dart-samples), old an
     - [ ] Access network interfaces
 - [ ] isolate
 - [ ] js
+    - [ ] Javascript interoperatibility
 - [ ] math
     - [ ] Mathematical functions
 - [ ] mirrors
@@ -28,6 +33,7 @@ Replaces [dart-samples](https://github.com/claudiodangelis/dart-samples), old an
 - [ ] profiler
 - [ ] svg
 - [ ] typed_data
+    - [ ] High performance computations
 - [ ] web_audio
 - [ ] web_gl
 - [ ] web_sql
@@ -39,7 +45,7 @@ Replaces [dart-samples](https://github.com/claudiodangelis/dart-samples), old an
     - [ ] Pub Get everything
     - [ ] ^ A complementary tool
     - [ ] Dart Analyze everything
-- [ ] Add READMEs
+- [x] Add READMEs
 
 # Authors
 
