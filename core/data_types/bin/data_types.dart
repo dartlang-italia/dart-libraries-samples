@@ -177,6 +177,30 @@ void main() {
   // Taking elements while the condition is satisfied
   print(longerList.takeWhile((l) => l != "F")); // (A, B, C, D, E)
 
-  // TODO: Maps
+  /*
+   *  Maps
+   */
+
+  Map<String, String> dictionary = {"one": "uno", "two": "due", "three": "tre"};
+
+  print(dictionary);  // {one: uno, two: due, three: tre}
+
+  // Getting keys (returns an Iterable)
+  print(dictionary.keys); // (one, two, three)
+  // Getting values (returns an Iterable)
+  print(dictionary.values); // (uno, due, tre)
+
+  // Getting a value
+  print(dictionary["three"]); // "tre"
+
+  // Looping through keys
+  dictionary.keys.forEach((k) {
+    print(k);
+  });
+
+  // Looping through values
+  dictionary.values.forEach((v) {
+    print(v);
+  });
 
 }
