@@ -12,7 +12,7 @@ Replaces [dart-samples](https://github.com/claudiodangelis/dart-samples), old an
 - [ ] collection
 - [ ] convert
 - [ ] core
-    - [ ] Data types
+    - [x] Data types
     - [ ] Classes
 - [ ] html
     - [ ] DOM Manipulation
