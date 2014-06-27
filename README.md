@@ -42,8 +42,8 @@ Replaces [dart-samples](https://github.com/claudiodangelis/dart-samples), old an
 
 - [ ] `<recursion>`Roadmap`</recursion>`
 - [ ] Helper tools
-    - [ ] Pub Get everything
-    - [ ] ^ A complementary tool
+    - [x] Pub Get everything
+    - [x] ^ A complementary tool
     - [ ] Dart Analyze everything
 - [x] Add READMEs
 
