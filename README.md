@@ -57,4 +57,8 @@ Replaces [dart-samples](https://github.com/claudiodangelis/dart-samples), old an
 
 [Claudio d'Angelis](https://plus.google.com/+claudiodangelis)  
 
+[Nicolas François](https://plus.google.com/106226789128312528511)
+
+[Guillaume Girou](https://plus.google.com/115049522200141162219)
+
 [You?](https://github.com/dartlang-italia/dart-libraries-samples/fork)
