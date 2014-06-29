@@ -34,7 +34,7 @@ Replaces [dart-samples](https://github.com/claudiodangelis/dart-samples), old an
 - [ ] profiler
 - [ ] svg
 - [ ] typed_data
-    - [ ] High performance computations
+    - [x] High performance computations
 - [ ] web_audio
 - [ ] web_gl
 - [ ] web_sql
