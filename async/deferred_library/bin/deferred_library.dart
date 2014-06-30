@@ -6,10 +6,10 @@
 import 'dart:async';
 
 @lazyItalian
-import 'lib/foo_italian.dart' as foo_italian;
+import '../lib/foo_italian.dart' as foo_italian;
 
 @lazyKorean
-import 'lib/foo_korean.dart' as foo_korean;
+import '../lib/foo_korean.dart' as foo_korean;
 
 const lazyItalian = const DeferredLibrary('foo_italian');
 const lazyKorean = const DeferredLibrary('foo_korean');
