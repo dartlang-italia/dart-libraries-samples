@@ -75,7 +75,7 @@ void main() {
     for (var i = 0; i < byteString.length; i++) {
       dataArray[i] = byteString.codeUnitAt(i);
     }
-    Blob blob = new Blob([arrayBuffer], 'image/png');
+    Blob blob = new Blob([dataArray], 'image/png');
     new AnchorElement(href: Url.createObjectUrl(blob))
       ..download = 'my_canvas.png'
       ..click();
