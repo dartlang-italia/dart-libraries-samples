@@ -6,9 +6,9 @@ Replaces [dart-samples](https://github.com/claudiodangelis/dart-samples), old an
 
 **Libraries**
 
-- [ ] async
-    - [ ] Futures
-    - [ ] Streams
+- [x] async
+    - [x] Futures
+    - [x] Streams
 - [ ] collection
 - [ ] convert
 - [ ] core
@@ -61,5 +61,7 @@ Replaces [dart-samples](https://github.com/claudiodangelis/dart-samples), old an
 [Nicolas François](https://plus.google.com/106226789128312528511)
 
 [Guillaume Girou](https://plus.google.com/115049522200141162219)
+
+[Damon Douglas](https://plus.google.com/+DamonDouglas)
 
 [You?](https://github.com/dartlang-italia/dart-libraries-samples/fork)

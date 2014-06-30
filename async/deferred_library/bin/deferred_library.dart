@@ -15,14 +15,14 @@ const lazyItalian = const DeferredLibrary('foo_italian');
 const lazyKorean = const DeferredLibrary('foo_korean');
 
 void main() {
-	lazyItalian.load().then(onItalianLoaded);
-	lazyKorean.load().then(onKoreanLoaded);
+  lazyItalian.load().then(onItalianLoaded);
+  lazyKorean.load().then(onKoreanLoaded);
 }
 
 void onItalianLoaded(_) {
-	foo_italian.speak();
+  foo_italian.speak();
 }
 
 void onKoreanLoaded(_) {
-	foo_korean.speak();
+  foo_korean.speak();
 }

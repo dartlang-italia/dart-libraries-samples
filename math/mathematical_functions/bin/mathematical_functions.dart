@@ -36,6 +36,7 @@ main() {
   print(tan(toRadians(29.999999999999994671)));
   print(sin(toRadians(30)) * 1 / cos(toRadians(30)));
 
+  // TODO: add more samples, fix the above assertion
 
 }
 
