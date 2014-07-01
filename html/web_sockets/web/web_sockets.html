@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Web sockets</title>
+
+    <script async type="application/dart" src="web_sockets.dart"></script>
+    <script async src="packages/browser/dart.js"></script>
+
+    <link rel="stylesheet" href="web_sockets.css">
+  </head>
+  <body>
+    <h1>Web sockets</h1>
+    <p>Send some text to ws://echo.websocket.org</p>
+    <p>
+      <input type="text" placeholder="Type here" id="input">
+      <button id="btn">Send</button>
+      <button id="close">Close connection</button>
+    </p>
+    <p>Log</p>
+    <textarea disabled="disabled" cols="30" rows="10" id="log"></textarea>
+
+  </body>
+</html>

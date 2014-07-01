@@ -1,0 +1,4 @@
+name: web_sockets
+description: A sample web application
+dependencies:
+  browser: any

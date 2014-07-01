@@ -17,7 +17,7 @@ Replaces [dart-samples](https://github.com/claudiodangelis/dart-samples), old an
 - [ ] html
     - [ ] DOM Manipulation
     - [ ] Http Requests
-    - [ ] Web Sockets
+    - [x] Web Sockets
     - [x] Local Storage
 - [ ] indexed_db
 - [ ] io
