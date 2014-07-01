@@ -27,8 +27,8 @@ Replaces [dart-samples](https://github.com/claudiodangelis/dart-samples), old an
 - [ ] isolate
 - [ ] js
     - [ ] Javascript interoperatibility
-- [ ] math
-    - [ ] Mathematical functions
+- [x] math
+    - [x] Mathematical functions
 - [ ] mirrors
     - [ ] Reflection
 - [ ] profiler
