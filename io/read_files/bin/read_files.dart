@@ -2,12 +2,15 @@ import 'dart:io';
 
 void main() {
   var file = new File("todos.csv");
+  // .readAsLines is a Future
   file.readAsLines().then((List<String> lines) {
-    print("Things to do:\n");
     lines.forEach((String todo) {
       printTodo(todo);
     });
+    print("\nDone loading thigs to do.");
   });
+  // This should print immediately
+  print("Loading things to do...\n");
 }
 
 void printTodo(String todo) {
@@ -15,7 +18,5 @@ void printTodo(String todo) {
   StringBuffer sb = new StringBuffer();
   sb.write("- ");
   sb.write(fields[1]);
-  // TODO: complete
   print(sb.toString());
-
 }
