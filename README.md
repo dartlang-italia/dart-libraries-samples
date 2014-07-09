@@ -46,6 +46,7 @@ Replaces [dart-samples](https://github.com/claudiodangelis/dart-samples), old an
     - [x] Pub Get everything
     - [x] ^ A complementary tool
     - [ ] Dart Analyze everything
+    - [ ] Attach in-depth article's link to READMEs
 - [x] Add READMEs
 
 # Authors
