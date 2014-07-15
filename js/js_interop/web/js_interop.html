@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Js Interop</title>
+
+    <script type="text/javascript">
+      var text = 'Javascript Variable';
+      var operation = function(x,y) {
+        this.x = x;
+        this.y = y;
+        this.sum = function(){
+          return this.x + this.y;
+        }
+      }
+    </script>
+
+    <script async type="application/dart" src="js_interop.dart"></script>
+    <script async src="packages/browser/dart.js"></script>
+
+    <link rel="stylesheet" href="js.css">
+  </head>
+  <body>
+
+    <div id="sample_container_id">
+      <input type="button" id="alert" value="Alert me!"><br><br><br>
+      <input type="text" id="x" value="0"/> + <input type="text" id="y" value="0"/> = <input type="text" readonly id="result" />
+    </div>
+
+  </body>
+</html>
