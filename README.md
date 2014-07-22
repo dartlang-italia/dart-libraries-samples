@@ -2,6 +2,10 @@ Collection of sample code for each Dart built-in library.
 
 Replaces [dart-samples](https://github.com/claudiodangelis/dart-samples), old and full of deprecated things.
 
+# Status
+
+[![Build Status](https://drone.io/github.com/dartlang-italia/dart-libraries-samples/status.png)](https://drone.io/github.com/dartlang-italia/dart-libraries-samples/latest)
+
 # Roadmap
 
 **Libraries**
@@ -19,7 +23,7 @@ Replaces [dart-samples](https://github.com/claudiodangelis/dart-samples), old an
     - [ ] Http Requests
     - [x] Web Sockets
     - [x] Local Storage
-- [ ] indexed_db
+- [ ] indexed\_db
 - [ ] io
     - [ ] Read/Write Files
     - [ ] Read/Write stdin/stdout
@@ -33,11 +37,11 @@ Replaces [dart-samples](https://github.com/claudiodangelis/dart-samples), old an
     - [ ] Reflection
 - [ ] profiler
 - [ ] svg
-- [ ] typed_data
+- [ ] typed\_data
     - [x] High performance computations
-- [ ] web_audio
-- [ ] web_gl
-- [ ] web_sql
+- [ ] web\_audio
+- [ ] web\_gl
+- [ ] web\_sql
 
 **Other**
 
@@ -45,7 +49,7 @@ Replaces [dart-samples](https://github.com/claudiodangelis/dart-samples), old an
 - [ ] Helper tools
     - [x] Pub Get everything
     - [x] ^ A complementary tool
-    - [ ] Dart Analyze everything
+    - [x] Dart Analyze everything
     - [ ] Attach in-depth article's link to READMEs
 - [x] Add READMEs
 - [ ] Add contribution guidelines
