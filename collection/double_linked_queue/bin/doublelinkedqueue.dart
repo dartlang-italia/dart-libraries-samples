@@ -1,6 +1,6 @@
 import 'dart:collection';
 
-class Developer  extends LinkedListEntry {
+class Developer {
   String name;
   String preferredLanguage;
   
@@ -9,23 +9,25 @@ class Developer  extends LinkedListEntry {
   toString() => name + " " + preferredLanguage;  
 }
 
+/*
+ * DoubleLinkedQueue
+ * A Queue implementation based on a double-linked list.
+ * Allows constant time add, remove-at-ends and peek operations.
+*/
+
 void main() {
   
   Developer giovanni = new Developer("Giovanni", "Dart");
   Developer claudio  = new Developer("Claudio", "Dart");
 
-  LinkedList<Developer> team = new LinkedList();
+  DoubleLinkedQueue<Developer> team = new DoubleLinkedQueue();
   
   team.add(giovanni);
   team.add(claudio);
   
   print(team);
   
-  print(giovanni.next);
   
-  print(claudio.previous);
-  
-  print(claudio.list);
   
   
   Developer alessandro = new Developer("Alessandro", "Go");
@@ -35,14 +37,12 @@ void main() {
   
   team.addAll(team_b);
   
-  print(claudio.list);
   
   
   team.remove(maurizio);
-  print (claudio.list);
   
   team.addFirst(maurizio);
-  print (maurizio.list);
+  print (team);
   
 
   
