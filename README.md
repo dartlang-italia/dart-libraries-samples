@@ -25,8 +25,8 @@ Replaces [dart-samples](https://github.com/claudiodangelis/dart-samples), old an
     - [x] Local Storage
 - [ ] indexed\_db
 - [ ] io
-    - [ ] Read/Write Files
-    - [ ] Read/Write stdin/stdout
+    - [x] Read/Write Files
+    - [x] Read/Write stdin/stdout
     - [ ] Access network interfaces
 - [ ] isolate
 - [ ] js
