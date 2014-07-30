@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jsify</title>
+    <script async src="localforage.js"></script>
+    <script async type="application/dart" src="jsify.dart"></script>
+    <script async src="packages/browser/dart.js"></script>
+    
+    <link rel="stylesheet" href="jsify.css">
+  </head>
+  <body>
+    <h1>Jsify with LocalForage</h1>
+        
+    <div id="sample_container_id">
+      <input type="text" value="string" id="string_example">
+      <select id="array_example" multiple="multiple" size="10">
+        <option value="string_1_example">String 1</option>
+        <option value="string_2_example" selected>String 2</option>
+        <option value="string_3_example">String 3</option>
+        <option value="string_4_example" selected>String 4</option>
+        <option value="string_5_example">String 5</option>
+      </select>
+      <input type="button" id="save" value="save">
+      <div class="show"></div>
+    </div>
+
+  </body>
+</html>
