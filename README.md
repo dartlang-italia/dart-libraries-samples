@@ -20,7 +20,7 @@ Replaces [dart-samples](https://github.com/claudiodangelis/dart-samples), old an
     - [ ] Classes
 - [ ] html
     - [ ] DOM Manipulation
-    - [ ] Http Requests
+    - [x] Http Requests
     - [x] Web Sockets
     - [x] Local Storage
 - [ ] indexed\_db
