@@ -6,7 +6,7 @@ InputElement inputX = querySelector('#x');
 InputElement inputY = querySelector('#y');
 
 void main() {
-  // TODO: add comments
+  //Add an Alert with a javascript variable
   querySelector("#alert").onClick.listen(jsAlert);
   inputX.onChange.listen(sumNumber);
   inputY.onChange.listen(sumNumber);
@@ -20,11 +20,12 @@ void jsAlert(MouseEvent event) {
 void sumNumber(Event event) {
   InputElement input_x = querySelector("#x");
   InputElement input_y = querySelector("#y");
-  print(input_x.value);
+  
   var x = int.parse(input_x.value);
   var y = int.parse(input_y.value);
-
+  //Call a javascript function with two parameters
   var jsCalculate = new JsObject(context['operation'], [x, y]);
+  //Call a method of the js function
   var sumResult = jsCalculate.callMethod('sum');
 
   result.value = sumResult.toString();

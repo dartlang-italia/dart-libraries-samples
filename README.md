@@ -29,8 +29,8 @@ Replaces [dart-samples](https://github.com/claudiodangelis/dart-samples), old an
     - [x] Read/Write stdin/stdout
     - [ ] Access network interfaces
 - [ ] isolate
-- [ ] js
-    - [ ] Javascript interoperatibility
+- [x] js
+    - [x] Javascript interoperatibility
 - [x] math
     - [x] Mathematical functions
 - [ ] mirrors
