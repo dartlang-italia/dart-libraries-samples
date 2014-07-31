@@ -30,7 +30,8 @@ Replaces [dart-samples](https://github.com/claudiodangelis/dart-samples), old an
     - [ ] Access network interfaces
 - [ ] isolate
 - [x] js
-    - [x] Javascript interoperatibility
+    - [x] JavaScript interoperatibility
+    - [x] Using external JavaScript libraries
 - [x] math
     - [x] Mathematical functions
 - [ ] mirrors
