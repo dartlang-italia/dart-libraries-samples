@@ -13,14 +13,16 @@ void main() {
 }
 
 void jsAlert(MouseEvent event) {
+  //Get the js variable in Dart
   String jsText = context['text'];
+  //First parameter is the js function, the second is used for the parameters in array of the js function
   context.callMethod('alert', ['Hello from ' + jsText + '!']);
 }
 
 void sumNumber(Event event) {
   InputElement input_x = querySelector("#x");
   InputElement input_y = querySelector("#y");
-  
+  //Convert the value in number
   var x = int.parse(input_x.value);
   var y = int.parse(input_y.value);
   //Call a javascript function with two parameters
