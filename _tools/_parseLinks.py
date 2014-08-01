@@ -16,5 +16,6 @@ if lib in links:
     for link in links[lib]:
         formatLink(link["title"], link["url"])
 
-print ("---\n")
+    print ("---\n")
+
 f.close()
