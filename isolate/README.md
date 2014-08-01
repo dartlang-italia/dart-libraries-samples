@@ -1,7 +1,5 @@
 # dart:isolate
 
----
-
 API Reference: [dart:isolate library](https://api.dartlang.org/apidocs/channels/stable/dartdoc-viewer/dart-isolate) 
 
 ---

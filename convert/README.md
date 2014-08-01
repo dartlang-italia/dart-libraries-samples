@@ -1,7 +1,5 @@
 # dart:convert
 
----
-
 API Reference: [dart:convert library](https://api.dartlang.org/apidocs/channels/stable/dartdoc-viewer/dart-convert) 
 
 ---

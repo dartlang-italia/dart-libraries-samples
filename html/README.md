@@ -1,7 +1,5 @@
 # dart:html
 
----
-
 API Reference: [dart:html library](https://api.dartlang.org/apidocs/channels/stable/dartdoc-viewer/dart-dom-html) 
 
 ---

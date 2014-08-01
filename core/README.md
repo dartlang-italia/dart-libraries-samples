@@ -1,7 +1,5 @@
 # dart:core
 
----
-
 API Reference: [dart:core library](https://api.dartlang.org/apidocs/channels/stable/dartdoc-viewer/dart-core) 
 
 ---

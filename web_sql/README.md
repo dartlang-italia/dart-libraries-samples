@@ -1,7 +1,5 @@
 # dart:web_sql
 
----
-
 API Reference: [dart:web_sql library](https://api.dartlang.org/apidocs/channels/stable/dartdoc-viewer/dart-dom-web_sql) 
 
 ---

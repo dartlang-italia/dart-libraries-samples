@@ -1,7 +1,5 @@
 # dart:indexed_db
 
----
-
 API Reference: [dart:indexed_db library](https://api.dartlang.org/apidocs/channels/stable/dartdoc-viewer/dart-dom-indexed_db) 
 
 ---
