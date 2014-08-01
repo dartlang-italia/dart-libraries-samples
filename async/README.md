@@ -1,5 +1,13 @@
 # dart:async
 
+External links:  
+
+- [Use Future-Based APIs](https://www.dartlang.org/docs/tutorials/futures) 
+
+- [Use Streams for Data](https://www.dartlang.org/docs/tutorials/streams) 
+
+---
+
 API Reference: [dart:async library](https://api.dartlang.org/apidocs/channels/stable/dartdoc-viewer/dart-async) 
 
 ---

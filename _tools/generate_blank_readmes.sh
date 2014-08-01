@@ -20,6 +20,14 @@ do
     fi
     echo -e "# dart:$LIB\n" > "$LIB/README.md"
 
+    # Here we use _parseLinks.py to extract links from links.json and appending them -- if any --
+    # to the READMEs.
+
+    # TODO: here we assume script is run from root dir, bad things can happen if we run it from
+    # elsewhere.
+
+    python3 _tools/_parseLinks.py $LIB >> "$LIB/README.md"
+
     if [[ ${DOM_PREFIXED_LIBS[@]#$LIB} == ${DOM_PREFIXED_LIBS[@]} ]]; then
       PREFIX="dart"
     else

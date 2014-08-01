@@ -1,5 +1,7 @@
 # dart:typed_data
 
+---
+
 API Reference: [dart:typed_data library](https://api.dartlang.org/apidocs/channels/stable/dartdoc-viewer/dart-typed_data) 
 
 ---
