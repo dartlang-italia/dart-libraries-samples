@@ -13,7 +13,7 @@ Replaces [dart-samples](https://github.com/claudiodangelis/dart-samples), old an
 - [x] async
     - [x] Futures
     - [x] Streams
-- [ ] collection
+- [x] collection
 - [ ] convert
 - [ ] core
     - [x] Data types
