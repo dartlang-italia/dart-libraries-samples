@@ -42,7 +42,7 @@ Replaces [dart-samples](https://github.com/claudiodangelis/dart-samples), old an
     - [x] High performance computations
 - [ ] web\_audio
 - [ ] web\_gl
-- [ ] web\_sql
+- [x] web\_sql
 
 **Other**
 
