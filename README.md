@@ -23,7 +23,7 @@ Replaces [dart-samples](https://github.com/claudiodangelis/dart-samples), old an
     - [x] Http Requests
     - [x] Web Sockets
     - [x] Local Storage
-- [ ] indexed\_db
+- [x] indexed\_db
 - [ ] io
     - [x] Read/Write Files
     - [x] Read/Write stdin/stdout

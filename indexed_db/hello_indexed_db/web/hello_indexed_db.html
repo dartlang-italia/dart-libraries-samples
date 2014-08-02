@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Indexed DB</title>
+
+    <script async type="application/dart" src="hello_indexed_db.dart"></script>
+    <script async src="packages/browser/dart.js"></script>
+
+    <link rel="stylesheet" href="hello_indexed_db.css">
+  </head>
+  <body>
+    <h1>Hello Indexed Db</h1>
+
+    <p id="message"></p>
+
+    <label for="inputKeyItem">Key</label>
+    <input type="text" id="inputKeytem"/>
+
+    <label for="inputValueItem">Value</label>
+    <input type="text" id="inputValueItem" /><button id="btnAddItem">Add</button>
+    <button id="btnClearDb">Clear database</button>
+
+    <div id="results"></div>
+
+  </body>
+</html>

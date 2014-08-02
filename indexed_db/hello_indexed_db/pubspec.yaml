@@ -1,0 +1,4 @@
+name: hello_indexed_db
+description: A sample web application
+dependencies:
+  browser: any
