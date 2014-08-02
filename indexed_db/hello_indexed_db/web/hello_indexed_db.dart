@@ -54,7 +54,6 @@ void main() {
       tx.objectStore(store).put(value, key).then((_) {
         inputKeyItem.value = "";
         inputValueItem.value = "";
-        print("aggiorno");
         refreshView(divResults, db, store);
       });
     }
