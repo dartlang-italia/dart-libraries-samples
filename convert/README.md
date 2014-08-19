@@ -1,5 +1,11 @@
 # dart:convert
 
+External links:  
+
+- [Converters and Codecs](https://www.dartlang.org/articles/converters-and-codecs/) 
+
+---
+
 API Reference: [dart:convert library](https://api.dartlang.org/apidocs/channels/stable/dartdoc-viewer/dart-convert) 
 
 ---

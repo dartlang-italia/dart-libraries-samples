@@ -9,6 +9,28 @@
             "url": "https://www.dartlang.org/docs/tutorials/streams"
         }
     ],
+
+    "convert": [
+        {
+            "title": "Converters and Codecs",
+            "url": "https://www.dartlang.org/articles/converters-and-codecs/"
+        }
+    ],
+
+    "mirrors": [
+        {
+            "title": "Reflection in Dart with Mirrors: An Introduction",
+            "url": "https://www.dartlang.org/articles/reflection-with-mirrors/"
+        }
+    ],
+
+    "typed_data": [
+        {
+            "title": "Using SIMD in Dart",
+            "url": "https://www.dartlang.org/articles/simd/"
+        }
+    ],
+
     "web_gl" : [
         {
             "title": "Learn WebGL with Dart!",
