@@ -52,6 +52,7 @@ Replaces [dart-samples](https://github.com/claudiodangelis/dart-samples), old an
     - [x] ^ A complementary tool
     - [x] Dart Analyze everything
     - [x] Attach in-depth article's link to READMEs
+    - [ ] Port all helper tools to Dart
 - [x] Add READMEs
 - [ ] Add contribution guidelines
 
@@ -65,7 +66,7 @@ Replaces [dart-samples](https://github.com/claudiodangelis/dart-samples), old an
 
 [Giovanni Laquidara](https://plus.google.com/+giovannilaquidara)
 
-[Claudio d'Angelis](https://plus.google.com/+claudiodangelis)  
+[Claudio d'Angelis](https://plus.google.com/+claudiodangelis)
 
 [Nicolas François](https://plus.google.com/106226789128312528511)
 
