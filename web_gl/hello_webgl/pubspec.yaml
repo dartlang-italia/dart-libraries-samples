@@ -1,0 +1,4 @@
+name: hello_webgl
+description: A sample web application
+dependencies:
+  browser: any
