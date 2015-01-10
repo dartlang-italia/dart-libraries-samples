@@ -3,23 +3,15 @@
  * see http://blog.sethladd.com/2013/04/lazy-load-libraries-in-dart.html
  */
 
-import 'dart:async';
-
 // Here we declare that loading of these two libraries is deferred
-@lazyItalian
-import 'package:deferred_library_sample/foo_italian.dart'  as foo_italian;
+import 'foo_italian.dart' deferred as foo_italian;
 
-@lazyKorean
-import 'package:deferred_library_sample/foo_korean.dart'  as foo_korean;
-
-
-const lazyItalian = const DeferredLibrary('foo_italian');
-const lazyKorean = const DeferredLibrary('foo_korean');
+import 'foo_korean.dart' deferred as foo_korean;
 
 void main() {
-  // Libraries are actually loaded
-  lazyItalian.load().then(onItalianLoaded);
-  lazyKorean.load().then(onKoreanLoaded);
+  // load the libraries
+  foo_italian.loadLibrary().then(onItalianLoaded);
+  foo_korean.loadLibrary().then(onKoreanLoaded);
 }
 
 void onItalianLoaded(_) {
