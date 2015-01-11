@@ -1,14 +1,16 @@
 # dart:async
 
-External links:  
+External links:
 
-- [Use Future-Based APIs](https://www.dartlang.org/docs/tutorials/futures) 
+- [Use Future-Based APIs](https://www.dartlang.org/docs/tutorials/futures)
 
-- [Use Streams for Data](https://www.dartlang.org/docs/tutorials/streams) 
+- [Use Streams for Data](https://www.dartlang.org/docs/tutorials/streams)
+
+- [async/await syntax](https://www.dartlang.org/articles/await-async/)
 
 ---
 
-API Reference: [dart:async library](https://api.dartlang.org/apidocs/channels/stable/dartdoc-viewer/dart-async) 
+API Reference: [dart:async library](https://api.dartlang.org/apidocs/channels/stable/dartdoc-viewer/dart-async)
 
 ---
 
@@ -73,6 +75,33 @@ Another common use of streams is for user-generated events
 in a web app: The following code listens for mouse clicks on a button.
 
     querySelector('#myButton').onClick.listen((_) => print('Click.'));
+
+## async/await
+
+The new async/await syntax allows for asynchronous code to be written more tersely.
+
+#### Before async/await:
+
+```dart
+_waitForValue()
+  .then((value){
+  print(value);
+});
+```
+
+#### Now with async/await:
+```dart
+var value = await _waitForValue();
+print(value);
+```
+
+**IMPORTANT** To enable the new async/await syntax, run code as:
+```
+dart --enable-async bin/asyncawait.dart
+```
+
+See [async/await syntax](https://www.dartlang.org/articles/await-async/) for more information.
+
 
 ## Other resources
 
