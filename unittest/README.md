@@ -4,7 +4,7 @@ Reference: [unittest pub package](https://pub.dartlang.org/packages/unittest)
 
 ---
 
-Parses raw command-line arguments into a set of options and values.
+Demonstrates unittest library.
 
 # Setup
 
