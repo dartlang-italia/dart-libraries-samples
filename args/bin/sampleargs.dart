@@ -1,5 +1,7 @@
+import 'package:args/args.dart' as args;
 import 'package:args/command_runner.dart' as command_runner;
 import 'dart:async';
+import 'dart:io' as io;
 
 
 main(List<String> args) {
@@ -20,8 +22,14 @@ main(List<String> args) {
 
   runner.addCommand(new MyCommand());
 
-  runner.run(args)
-  .whenComplete(() => print(""));
+  runZoned(() {
+    runner.run(args)
+    .whenComplete(() => print(""));
+  }, onError: (error, stackTrace) {
+    args.ArgResults results = runner.parse(args);
+    Command command = runner.commands[results.command.name];
+    command.printUsage();
+  });
 }
 
 class MyCommand extends command_runner.Command {
@@ -36,6 +44,69 @@ class MyCommand extends command_runner.Command {
   };
 
   MyCommand() {
+    argParser
+    ..addOption(
+      'myoption',
+      abbr: 'o'
+    )
+
+    ..addFlag(
+      'myflag2',
+      abbr:'f'
+    );
+
+    addSubcommand(new MySubCommand1());
+    addSubcommand(new MySubCommand2());
+  }
+
+  Future run() {
+    print(data);
+    return new Future.value(true);
+  }
+}
+
+class MySubCommand1 extends command_runner.Command {
+  String get name => "subcommand1";
+  String get description => "Description about subcommand1.";
+
+  Map get data => {
+    'log':globalResults['log'],
+    'myflag1':globalResults['myflag1'],
+    'myoption':argResults['myoption'],
+    'myflag2':argResults['myflag2']
+  };
+
+  MySubCommand1() {
+    argParser
+    ..addOption(
+      'myoption',
+      abbr: 'o'
+    )
+
+    ..addFlag(
+      'myflag2',
+      abbr:'f'
+    );
+  }
+
+  Future run() {
+    print(data);
+    return new Future.value(true);
+  }
+}
+
+class MySubCommand2 extends command_runner.Command {
+  String get name => "subcommand2";
+  String get description => "Description about subcommand2.";
+
+  Map get data => {
+    'log':globalResults['log'],
+    'myflag1':globalResults['myflag1'],
+    'myoption':argResults['myoption'],
+    'myflag2':argResults['myflag2']
+  };
+
+  MySubCommand2() {
     argParser
     ..addOption(
       'myoption',

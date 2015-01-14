@@ -14,9 +14,8 @@ pub get
 
 # Run
 
-## dart bin/sampleargs.dart
-
 ```
+$ dart bin/sampleargs.dart
 Demonstrates use of the args library.
 
 Usage: sampleargs <command> [arguments]
@@ -35,16 +34,28 @@ Available commands:
 Run "sampleargs help <command>" for more information about a command.
 ```
 
-## mycommand --help
+```
+$ dart bin/sampleargs.dart mycommand
 
-```
-dart bin/sampleargs.dart mycommand --help
-```
-
-```
 Description about mycommand.
 
-Usage: sampleargs mycommand [arguments]
+Usage: sampleargs mycommand <subcommand> [arguments]
+-h, --help            Print this usage information.
+-o, --myoption
+-f, --[no-]myflag2
+
+Available subcommands:
+  subcommand1   Description about subcommand1.
+  subcommand2   Description about subcommand2.
+
+Run "sampleargs help" to see global options.
+```
+
+```
+$ dart bin/sampleargs.dart mycommand subcommand1 -h
+Description about subcommand1.
+
+Usage: sampleargs mycommand subcommand1 [arguments]
 -h, --help            Print this usage information.
 -o, --myoption
 -f, --[no-]myflag2
@@ -52,12 +63,19 @@ Usage: sampleargs mycommand [arguments]
 Run "sampleargs help" to see global options.
 ```
 
-## mycommand -l INFO -f mycommand -o test -f
+```
+$ dart bin/sampleargs.dart mycommand subcommand2 -h
+Description about subcommand2.
+
+Usage: sampleargs mycommand subcommand2 [arguments]
+-h, --help            Print this usage information.
+-o, --myoption
+-f, --[no-]myflag2
+
+Run "sampleargs help" to see global options.
+```
 
 ```
-dart bin/sampleargs.dart -l INFO -f mycommand -o test -f
-```
-
-```
-{log: INFO, myflag1: true, myoption: test, myflag2: true}
+$ dart bin/sampleargs.dart -l FINE -f mycommand subcommand2 -o foo -f
+{log: FINE, myflag1: true, myoption: foo, myflag2: true}
 ```
