@@ -16,7 +16,7 @@ main() {
     var dartFileList = exampleDir.listSync(recursive:true).where((FileSystemEntity fse) => path.extension(fse.path) == ".dart" && !fse.path.contains("packages"));
     dartFileList.forEach((File dartFile){
       var relativeDartFilePath = path.relative(dartFile.path, from:exampleDir.path);
-      var dartanalyzerCommand = "dartanalyzer --enable-async $relativeDartFilePath\n";
+      var dartanalyzerCommand = "dartanalyzer --enable-enum --enable-async $relativeDartFilePath\n";
       run_dartanalyzer_sh.writeAsStringSync(dartanalyzerCommand, mode:FileMode.APPEND, flush:true);
     });
   });

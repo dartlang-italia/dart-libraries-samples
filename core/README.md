@@ -1,6 +1,6 @@
 # dart:core
 
-API Reference: [dart:core library](https://api.dartlang.org/apidocs/channels/stable/dartdoc-viewer/dart-core) 
+API Reference: [dart:core library](https://api.dartlang.org/apidocs/channels/stable/dartdoc-viewer/dart-core)
 
 ---
 
@@ -135,6 +135,10 @@ which identifies a resource on the web.
 The [Error] class represents the occurrence of an error
 during runtime.
 Subclasses of this class represent specific kinds of errors.
+
+## Enum
+
+For more information, see [Enumerated types](https://www.dartlang.org/docs/dart-up-and-running/ch02.html#enums)
 
 ## Other documentation
 
