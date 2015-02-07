@@ -16,8 +16,5 @@ pub get
 
 ```
 dart test_unittest_sample.dart
-```
-
-```
-dart --enable-async test_async_unittest_sample.dart
+dart test_async_unittest_sample.dart
 ```
