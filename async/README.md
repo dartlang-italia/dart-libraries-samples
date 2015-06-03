@@ -95,11 +95,6 @@ var value = await _waitForValue();
 print(value);
 ```
 
-**IMPORTANT** To enable the new async/await syntax, run code as:
-```
-dart --enable-async bin/asyncawait.dart
-```
-
 See [async/await syntax](https://www.dartlang.org/articles/await-async/) for more information.
 
 
